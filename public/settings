@@ -1,0 +1,17 @@
+{
+  "data": [{
+    "attributes": {
+      "name": "Test blog setting",
+      "value": "some_value"
+    },
+    "id": "1",
+    "type": "blog-setting"
+  }, {
+    "attributes": {
+      "name": "Test unknown setting",
+      "value": "some_value"
+    },
+    "id": "2",
+    "type": "unknown-setting"
+  }]
+}

@@ -1,7 +1,9 @@
 {{page-title "EmberDataCrashTest"}}
 
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+{{log this.model}}
+
+{{#each this.model as |item|}}
+  <p>{{item.name}}: {{item.value}}</p>
+{{/each}}
 
 {{outlet}}
